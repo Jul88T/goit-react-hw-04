@@ -1,0 +1,23 @@
+.Modal__Overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.Modal__Content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.Modal__Content img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Modal__Content p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
