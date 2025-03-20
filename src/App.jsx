@@ -81,13 +81,13 @@ const App = () => {
           <LoadMoreBtn onClick={handleLoadMore} />
         </>
       )}
-      {selectedImage && (
-        <ImageModal
-          isOpen={Boolean(selectedImage)}
-          onClose={handleCloseModal}
-          image={selectedImage}
-        />
-      )}
+
+      <ImageModal
+        isOpen={Boolean(selectedImage)}
+        onClose={handleCloseModal}
+        image={selectedImage}
+      />
+
       <Toaster />
     </div>
   );

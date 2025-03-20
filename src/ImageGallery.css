@@ -1,15 +1,10 @@
-/* .image-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-} */
-
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 15px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .image-gallery__list {
@@ -23,7 +18,7 @@
 }
 
 .image-gallery__item {
-  flex: 1 1 calc(33.333% - 15px);
+  flex: 1 1 calc(25% - 15px);
   box-sizing: border-box;
 }
 
